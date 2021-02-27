@@ -1,0 +1,80 @@
+#activate the conda environment
+conda activate image_processing
+
+#locate the image source
+cd /mnt/c/Users/Aarthi/Downloads
+
+python
+
+#import statement blocks
+import matplotlib.pyplot as plt
+from scipy import ndimage
+import numpy as np
+
+#read the image into a numpy.ndarray
+Brain=plt.imread("Brain.jpg")
+
+#find the type of the image
+type(Brain)
+
+#find the dimension of the image
+Brain.shape
+
+#reverse grayscale colourmap to show the image
+Brain_image=ndimage.gaussian_filter(Brain, sigma=0)
+plt.imshow(Brain_image, cmap='gray_r')
+plt.show()
+
+#plot the histogram of the image
+plt.hist(Brain_image, bins=10)
+plt.show()
+
+#use different gaussian kernels for smoothing
+#plot the corresponding histograms
+#standard deviation of gaussian distribution = 5
+brain=ndimage.gaussian_filter(Brain, sigma=5)
+plt.imshow(brain, cmap='gray_r')
+plt.show()
+
+plt.hist(brain, bins=10)
+plt.show()
+
+#standard deviation of gaussian distribution = 10
+brain=ndimage.gaussian_filter(Brain, sigma=10)
+plt.imshow(brain, cmap='gray_r')
+plt.show()
+
+plt.hist(brain, bins=10)
+plt.show()
+
+#standard deviation of gaussian distribution = 20
+brain=ndimage.gaussian_filter(Brain, sigma=20)
+plt.imshow(brain, cmap='gray_r')
+plt.show()
+
+plt.hist(brain, bins=10)
+plt.show()
+
+#standard deviation of gaussian distribution = 30
+brain=ndimage.gaussian_filter(Brain, sigma=30)
+plt.imshow(brain, cmap='gray_r')
+plt.show()
+
+plt.hist(brain, bins=10)
+plt.show()
+
+#standard deviation of gaussian distribution = 40
+brain=ndimage.gaussian_filter(Brain, sigma=40)
+plt.imshow(brain, cmap='gray_r')
+plt.show()
+
+plt.hist(brain, bins=10)
+plt.show()
+
+#standard deviation of gaussian distribution = 50
+brain=ndimage.gaussian_filter(Brain, sigma=50)
+plt.imshow(brain, cmap='gray_r')
+plt.show()
+
+plt.hist(brain, bins=10)
+plt.show()
