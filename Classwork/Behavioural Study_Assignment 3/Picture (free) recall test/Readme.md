@@ -1,1 +1,1 @@
-
+Picture (free) recall test is a measure of memory retrieval. Pictures of objects are shown and the subjects are instructed to observe and remember the objects seen. After 20 minutes, the subjects had to type the list of objects that they encountered.
