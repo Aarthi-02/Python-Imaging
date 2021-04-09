@@ -1,1 +1,1 @@
-
+Digit Span test is one of the subtests of Wechsler Adult Intelligence Scale. The subjects were visually exposed to a series of numbers and they were instructed to repeat the numbers in the same order (forward span). It is a widely known measure of short-term memory.
