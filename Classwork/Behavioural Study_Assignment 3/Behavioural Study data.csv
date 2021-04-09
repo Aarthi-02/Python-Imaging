@@ -1,0 +1,20 @@
+Subject,Condition,Gender,Age,Digit span,Picture Free Recall,
+PM,Red,M,22,8,11,
+BB,White,F,21,6,15,
+PS,Blue,F,21,6,13,
+SV,Blue,F,21,6,13,
+S,Blue,F,21,6,13,
+KM,Red,F,35,5,10,
+MRD,White,M,16,6,9,
+SG,Blue,M,20,5,11,
+CS,Red,F,22,5,9,
+NMK,White,F,22,7,16,
+,,,,,,
+,,Condition Red,Mean_Digit Span,6,Standard Deviation_Digit Span,1.732050808
+,,,Mean _Recall,10,Standard Deviation_Recall,1
+,,,,,,
+,,Condition Blue,Mean_Digit Span,5.75,Standard Deviation_Digit Span,0.5
+,,,Mean_Recall,12.5,Standard Deviation_Recall,1
+,,,,,,
+,,Condition White,Mean_Digit Span,6.333333333,Standard Deviation_Digit Span,0.5773502692
+,,,Mean_Recall,13.33333333,Standard Deviation_Recall,3.785938897
